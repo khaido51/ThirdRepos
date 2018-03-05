@@ -30,7 +30,7 @@ namespace Ticketing
         {
             mQuantity = int.Parse(txtQuantity.Text);
 
-            if (chkDiscount.Checked)
+            if (chkDiscount.Checked || chkDiscountChild.Checked)
                 { mDiscount = true; }
 
             if (radBalcony.Checked)
